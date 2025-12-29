@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "description": "Test architecture knowledge index for Murat (Tea agent)",
+  "topics": [
+    {
+      "id": "playwright",
+      "name": "Playwright Testing",
+      "keywords": ["playwright", "e2e", "browser", "automation"],
+      "file": "playwright.md"
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress Testing",
+      "keywords": ["cypress", "e2e", "component"],
+      "file": "cypress.md"
+    },
+    {
+      "id": "testing-strategy",
+      "name": "Testing Strategy",
+      "keywords": ["strategy", "pyramid", "coverage", "risk"],
+      "file": "testing-strategy.md"
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD Integration",
+      "keywords": ["ci", "cd", "pipeline", "github", "gitlab"],
+      "file": "ci-cd.md"
+    }
+  ],
+  "note": "Add topic-specific markdown files to extend Murat's knowledge"
+}

@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "description": "Lightweight agent index for intelligent selection. Full profiles loaded on-demand.",
+  "agents": [
+    {
+      "id": "bmad-master",
+      "displayName": "BMad Master",
+      "icon": "🧙",
+      "title": "Master Executor",
+      "keywords": ["coordination", "orchestration", "workflow", "bmad", "platform", "moderation"],
+      "role": "facilitator",
+      "module": "core"
+    },
+    {
+      "id": "analyst",
+      "displayName": "Mary",
+      "icon": "📊",
+      "title": "Business Analyst",
+      "keywords": ["business", "analysis", "requirements", "market", "research", "stakeholder", "competitive"],
+      "role": "business",
+      "module": "bmm"
+    },
+    {
+      "id": "architect",
+      "displayName": "Winston",
+      "icon": "🏗️",
+      "title": "Architect",
+      "keywords": ["architecture", "design", "scalability", "distributed", "API", "cloud", "infrastructure", "patterns"],
+      "role": "technical",
+      "module": "bmm"
+    },
+    {
+      "id": "dev",
+      "displayName": "Amelia",
+      "icon": "💻",
+      "title": "Developer",
+      "keywords": ["code", "implementation", "TDD", "testing", "refactor", "programming", "software"],
+      "role": "technical",
+      "module": "bmm"
+    },
+    {
+      "id": "pm",
+      "displayName": "John",
+      "icon": "📋",
+      "title": "Product Manager",
+      "keywords": ["product", "strategy", "prioritization", "MVP", "roadmap", "data", "metrics", "user"],
+      "role": "business",
+      "module": "bmm"
+    },
+    {
+      "id": "quick-flow-solo-dev",
+      "displayName": "Barry",
+      "icon": "🚀",
+      "title": "Quick Flow Solo Dev",
+      "keywords": ["prototype", "spike", "fullstack", "rapid", "efficiency", "shipping", "implementation"],
+      "role": "technical",
+      "module": "bmm"
+    },
+    {
+      "id": "sm",
+      "displayName": "Bob",
+      "icon": "🏃",
+      "title": "Scrum Master",
+      "keywords": ["agile", "sprint", "story", "scrum", "planning", "ceremony", "backlog"],
+      "role": "process",
+      "module": "bmm"
+    },
+    {
+      "id": "tea",
+      "displayName": "Murat",
+      "icon": "🧪",
+      "title": "Test Architect",
+      "keywords": ["testing", "QA", "CI/CD", "automation", "quality", "coverage", "E2E", "integration"],
+      "role": "technical",
+      "module": "bmm"
+    },
+    {
+      "id": "tech-writer",
+      "displayName": "Paige",
+      "icon": "📚",
+      "title": "Technical Writer",
+      "keywords": ["documentation", "writing", "clarity", "API", "readme", "guide", "tutorial"],
+      "role": "documentation",
+      "module": "bmm"
+    },
+    {
+      "id": "ux-designer",
+      "displayName": "Sally",
+      "icon": "🎨",
+      "title": "UX Designer",
+      "keywords": ["UX", "UI", "design", "user", "experience", "wireframe", "usability", "journey"],
+      "role": "design",
+      "module": "bmm"
+    }
+  ],
+  "roleCategories": {
+    "technical": ["architect", "dev", "quick-flow-solo-dev", "tea"],
+    "business": ["analyst", "pm"],
+    "design": ["ux-designer"],
+    "documentation": ["tech-writer"],
+    "process": ["sm"],
+    "facilitator": ["bmad-master"]
+  }
+}
