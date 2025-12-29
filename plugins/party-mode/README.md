@@ -113,6 +113,12 @@ The plugin uses split architecture for efficiency:
 - **Agent profiles**: Full data (~500B each) - loaded only for selected agents
 - **Knowledge files**: Loaded only when topic matches
 
+## Credits
+
+This plugin is adapted from the [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) project by BMad Code, LLC - an AI-driven agile development framework with specialized AI agents.
+
 ## License
 
-MIT
+MIT License - See [LICENSE](LICENSE) for details.
+
+BMad™ and BMAD-METHOD™ are trademarks of BMad Code, LLC.

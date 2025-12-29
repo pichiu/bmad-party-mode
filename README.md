@@ -54,4 +54,10 @@ bmad-plugins/
 
 ## License
 
-MIT
+This repository is licensed under the [MIT License](LICENSE).
+
+**Note:** Individual plugins may have their own licenses based on their origins. Please check each plugin's `LICENSE` file for specific terms and attributions.
+
+| Plugin | License | Based On |
+|--------|---------|----------|
+| [party-mode](./plugins/party-mode/) | MIT | [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) |
