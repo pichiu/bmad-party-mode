@@ -1,0 +1,10 @@
+{
+  "name": "bmad-party-mode",
+  "version": "1.0.0",
+  "description": "Multi-agent conversation orchestration - enables dynamic group discussions with AI agents, each with unique personality and expertise",
+  "author": {
+    "name": "Pi Chiu",
+    "email": "rtchiou@gmail.com"
+  },
+  "keywords": ["multi-agent", "conversation", "orchestration", "collaboration", "brainstorming"]
+}

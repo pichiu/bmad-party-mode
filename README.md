@@ -31,13 +31,13 @@ Multi-agent conversation orchestration for Claude Code - enables dynamic group d
 Start a Party Mode session:
 
 ```
-/party-mode
+/bmad-party-mode
 ```
 
 Or with a topic:
 
 ```
-/party-mode How should we design our authentication system?
+/bmad-party-mode How should we design our authentication system?
 ```
 
 ### During the Session
@@ -57,11 +57,11 @@ Say any of these to exit:
 ## Architecture
 
 ```
-party-mode/
+bmad-party-mode/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
 ├── commands/
-│   └── party-mode.md        # Main /party-mode command
+│   └── party-mode.md        # Main /bmad-party-mode command
 ├── skills/
 │   └── party-mode-orchestration/
 │       ├── SKILL.md         # Orchestration rules

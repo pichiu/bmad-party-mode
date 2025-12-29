@@ -10,7 +10,7 @@ This skill provides guidance for orchestrating multi-agent conversations where m
 
 ## When to Use This Skill
 
-- User starts a party mode session via `/party-mode`
+- User starts a party mode session via `/bmad-party-mode`
 - User asks questions requiring multiple expert perspectives
 - User wants to brainstorm with a team of specialists
 - User needs cross-functional analysis (technical + business + design)
