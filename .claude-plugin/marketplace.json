@@ -1,0 +1,14 @@
+{
+  "name": "bmad-party-mode",
+  "owner": {
+    "name": "Pi Chiu",
+    "email": "rtchiou@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "bmad-party-mode",
+      "source": ".",
+      "description": "Multi-agent conversation orchestration - enables dynamic group discussions with AI agents, each with unique personality and expertise"
+    }
+  ]
+}
