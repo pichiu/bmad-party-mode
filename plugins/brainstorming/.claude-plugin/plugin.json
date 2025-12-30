@@ -1,0 +1,11 @@
+{
+  "name": "brainstorming",
+  "version": "1.0.0",
+  "description": "Interactive brainstorming facilitation with 61 creative techniques across 10 categories - AI-powered creative coaching for innovative thinking",
+  "author": {
+    "name": "Pi Chiu",
+    "email": "rtchiou@gmail.com"
+  },
+  "repository": "https://github.com/pichiu/bmad-plugins",
+  "keywords": ["brainstorming", "creativity", "facilitation", "ideation", "techniques", "coaching"]
+}

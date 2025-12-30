@@ -1,0 +1,915 @@
+{
+  "version": "1.0.0",
+  "description": "Creative techniques database for brainstorming facilitation",
+  "totalTechniques": 61,
+  "categories": [
+    {
+      "id": "collaborative",
+      "name": "Collaborative",
+      "icon": "🤝",
+      "description": "Team dynamics, diverse voices, building together",
+      "techniqueCount": 5,
+      "techniques": [
+        {
+          "id": "yes-and-building",
+          "name": "Yes And Building",
+          "description": "Build ideas through affirmative contribution, accepting and expanding on others' ideas",
+          "energy": "high",
+          "duration": "15-20 min",
+          "bestFor": ["team collaboration", "idea development", "positive momentum"],
+          "prompts": [
+            "What can we add to make this even better?",
+            "Yes, and we could also...",
+            "Building on that idea, what if we..."
+          ]
+        },
+        {
+          "id": "brain-writing-round-robin",
+          "name": "Brain Writing Round Robin",
+          "description": "Silent written ideation passed between participants, allowing introverts to contribute equally",
+          "energy": "low",
+          "duration": "20-30 min",
+          "bestFor": ["introvert-friendly", "equal participation", "diverse ideas"],
+          "prompts": [
+            "Write your idea silently, then pass it on",
+            "Read the previous idea and add a new angle",
+            "Build or branch from what you received"
+          ]
+        },
+        {
+          "id": "random-stimulation",
+          "name": "Random Stimulation",
+          "description": "Use random words, images, or objects to spark unexpected connections",
+          "energy": "medium",
+          "duration": "15-20 min",
+          "bestFor": ["breaking mental blocks", "unexpected connections", "creativity boost"],
+          "prompts": [
+            "How does this random word connect to our challenge?",
+            "What if our solution had qualities of this object?",
+            "Force a connection between this stimulus and your problem"
+          ]
+        },
+        {
+          "id": "role-playing",
+          "name": "Role Playing",
+          "description": "Adopt stakeholder perspectives to understand different viewpoints",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["stakeholder empathy", "perspective shifting", "uncovering blind spots"],
+          "prompts": [
+            "If you were the customer, what would frustrate you?",
+            "How would a competitor view this situation?",
+            "What would your harshest critic say?"
+          ]
+        },
+        {
+          "id": "ideation-relay-race",
+          "name": "Ideation Relay Race",
+          "description": "Time-boxed rapid ideation passed between team members for high-energy breakthrough",
+          "energy": "high",
+          "duration": "10-15 min",
+          "bestFor": ["high energy", "rapid ideation", "team momentum"],
+          "prompts": [
+            "You have 60 seconds - generate as many ideas as possible!",
+            "Pass to the next person and build on their momentum",
+            "No filtering - quantity over quality in this round"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "icon": "💡",
+      "description": "Innovation, breaking frames, unexpected connections",
+      "techniqueCount": 11,
+      "techniques": [
+        {
+          "id": "what-if-scenarios",
+          "name": "What If Scenarios",
+          "description": "Explore hypothetical situations to challenge assumptions and discover new possibilities",
+          "energy": "high",
+          "duration": "15-25 min",
+          "bestFor": ["assumption challenging", "possibility exploration", "creative breakthrough"],
+          "prompts": [
+            "What if money was no object?",
+            "What if we had to solve this in 24 hours?",
+            "What if our biggest constraint disappeared?",
+            "What if we did the exact opposite?"
+          ]
+        },
+        {
+          "id": "analogical-thinking",
+          "name": "Analogical Thinking",
+          "description": "Transfer solutions from one domain to another through systematic comparison",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["cross-domain innovation", "pattern recognition", "solution transfer"],
+          "prompts": [
+            "What industry has already solved a similar problem?",
+            "How would nature handle this challenge?",
+            "What can we learn from how X approaches this?"
+          ]
+        },
+        {
+          "id": "reversal-inversion",
+          "name": "Reversal Inversion",
+          "description": "Flip assumptions and approaches upside down to reveal hidden possibilities",
+          "energy": "medium",
+          "duration": "15-20 min",
+          "bestFor": ["revealing assumptions", "paradigm shifts", "fresh perspectives"],
+          "prompts": [
+            "What if we did the exact opposite?",
+            "What assumptions are we taking for granted?",
+            "How would this look if we reversed the process?"
+          ]
+        },
+        {
+          "id": "first-principles-thinking",
+          "name": "First Principles Thinking",
+          "description": "Break down problems to fundamental truths and rebuild from scratch",
+          "energy": "high",
+          "duration": "25-35 min",
+          "bestFor": ["fundamental innovation", "challenging conventions", "deep understanding"],
+          "prompts": [
+            "What do we know to be absolutely true?",
+            "Why does it have to be this way?",
+            "If we started from zero, what would we build?"
+          ]
+        },
+        {
+          "id": "forced-relationships",
+          "name": "Forced Relationships",
+          "description": "Combine unrelated concepts to create unexpected innovations",
+          "energy": "medium",
+          "duration": "15-20 min",
+          "bestFor": ["unexpected combinations", "creative friction", "novel solutions"],
+          "prompts": [
+            "How could we combine X with Y?",
+            "What if this product met that service?",
+            "Force these two unrelated concepts together"
+          ]
+        },
+        {
+          "id": "time-shifting",
+          "name": "Time Shifting",
+          "description": "View the problem from different time perspectives - past, present, future",
+          "energy": "medium",
+          "duration": "20-25 min",
+          "bestFor": ["temporal perspective", "trend anticipation", "historical learning"],
+          "prompts": [
+            "How would this be solved 100 years ago?",
+            "What will people think of this in 50 years?",
+            "If you came from the future, what would you change?"
+          ]
+        },
+        {
+          "id": "metaphor-mapping",
+          "name": "Metaphor Mapping",
+          "description": "Use metaphors to understand complex concepts and generate new insights",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["abstract concepts", "communication", "insight generation"],
+          "prompts": [
+            "If this problem were a weather pattern, what would it be?",
+            "What animal represents our current situation?",
+            "Map this challenge to a journey - where are we?"
+          ]
+        },
+        {
+          "id": "cross-pollination",
+          "name": "Cross-Pollination",
+          "description": "Import ideas and practices from completely different industries",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["industry innovation", "best practice transfer", "fresh approaches"],
+          "prompts": [
+            "How does the hospitality industry handle this?",
+            "What can we learn from gaming companies?",
+            "What would a restaurant do differently?"
+          ]
+        },
+        {
+          "id": "concept-blending",
+          "name": "Concept Blending",
+          "description": "Merge two or more concepts to create entirely new categories",
+          "energy": "high",
+          "duration": "20-25 min",
+          "bestFor": ["category creation", "innovation", "unique positioning"],
+          "prompts": [
+            "What new category emerges when we blend these?",
+            "Create a name for this hybrid concept",
+            "What properties does this blend inherit from each parent?"
+          ]
+        },
+        {
+          "id": "reverse-brainstorming",
+          "name": "Reverse Brainstorming",
+          "description": "Generate ways to cause the problem, then reverse them into solutions",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["problem discovery", "risk identification", "creative solutions"],
+          "prompts": [
+            "How could we make this problem worse?",
+            "What would guarantee failure?",
+            "Now reverse each failure mode into a success strategy"
+          ]
+        },
+        {
+          "id": "sensory-exploration",
+          "name": "Sensory Exploration",
+          "description": "Engage all five senses to unlock multi-dimensional thinking",
+          "energy": "medium",
+          "duration": "15-20 min",
+          "bestFor": ["experiential design", "holistic thinking", "product innovation"],
+          "prompts": [
+            "What does success look like? Sound like? Feel like?",
+            "How would you describe this to someone using only textures?",
+            "What taste or smell represents this experience?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep",
+      "name": "Deep",
+      "icon": "🔍",
+      "description": "Root cause analysis, systematic exploration, deep understanding",
+      "techniqueCount": 8,
+      "techniques": [
+        {
+          "id": "five-whys",
+          "name": "Five Whys",
+          "description": "Drill down to root causes by asking 'why' repeatedly",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["root cause analysis", "problem understanding", "depth over breadth"],
+          "prompts": [
+            "Why is this happening?",
+            "And why is that?",
+            "What's the root cause beneath the surface?"
+          ]
+        },
+        {
+          "id": "morphological-analysis",
+          "name": "Morphological Analysis",
+          "description": "Systematically combine variations across multiple dimensions",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["systematic exploration", "combination generation", "comprehensive coverage"],
+          "prompts": [
+            "What are all the possible variations of dimension X?",
+            "Create a matrix of all possible combinations",
+            "Which unusual combinations might work?"
+          ]
+        },
+        {
+          "id": "provocation-technique",
+          "name": "Provocation Technique",
+          "description": "Make deliberately provocative statements to escape conventional thinking",
+          "energy": "high",
+          "duration": "15-20 min",
+          "bestFor": ["pattern interruption", "creative provocation", "escaping ruts"],
+          "prompts": [
+            "What if the opposite were true?",
+            "Imagine this absurd scenario...",
+            "What provocative statement challenges our assumptions?"
+          ]
+        },
+        {
+          "id": "assumption-reversal",
+          "name": "Assumption Reversal",
+          "description": "Identify and systematically reverse key assumptions",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["paradigm shifts", "assumption surfacing", "breakthrough thinking"],
+          "prompts": [
+            "List all assumptions we're making",
+            "What if this assumption were false?",
+            "Reverse each assumption and explore implications"
+          ]
+        },
+        {
+          "id": "question-storming",
+          "name": "Question Storming",
+          "description": "Generate questions instead of answers to reframe the problem",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["problem reframing", "deeper inquiry", "avoiding premature solutions"],
+          "prompts": [
+            "What questions should we be asking?",
+            "What question, if answered, would unlock everything?",
+            "What are we not asking that we should be?"
+          ]
+        },
+        {
+          "id": "constraint-mapping",
+          "name": "Constraint Mapping",
+          "description": "Identify, categorize, and strategically challenge constraints",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["constraint identification", "strategic planning", "possibility expansion"],
+          "prompts": [
+            "What constraints are real vs. assumed?",
+            "Which constraint, if removed, would change everything?",
+            "How might we work around this limitation?"
+          ]
+        },
+        {
+          "id": "failure-analysis",
+          "name": "Failure Analysis",
+          "description": "Study past failures to extract lessons and avoid repetition",
+          "energy": "low",
+          "duration": "20-30 min",
+          "bestFor": ["learning from mistakes", "risk mitigation", "pattern recognition"],
+          "prompts": [
+            "What has failed before in similar situations?",
+            "What can we learn from this failure?",
+            "How do we ensure we don't repeat this?"
+          ]
+        },
+        {
+          "id": "emergent-thinking",
+          "name": "Emergent Thinking",
+          "description": "Allow ideas to evolve organically through iteration and connection",
+          "energy": "low",
+          "duration": "25-35 min",
+          "bestFor": ["organic development", "complex systems", "letting ideas evolve"],
+          "prompts": [
+            "What patterns are emerging from our ideas?",
+            "Let this concept develop naturally - where does it want to go?",
+            "What connections are forming between ideas?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structured",
+      "name": "Structured",
+      "icon": "📊",
+      "description": "Systematic approaches, frameworks, methodical analysis",
+      "techniqueCount": 7,
+      "techniques": [
+        {
+          "id": "scamper",
+          "name": "SCAMPER Method",
+          "description": "Systematic creativity through seven lenses: Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["product improvement", "systematic innovation", "comprehensive exploration"],
+          "prompts": [
+            "What could we Substitute?",
+            "What could we Combine?",
+            "How could we Adapt this?",
+            "What could we Modify or Magnify?",
+            "What other uses could this have?",
+            "What could we Eliminate?",
+            "What if we Reversed or Rearranged?"
+          ]
+        },
+        {
+          "id": "six-thinking-hats",
+          "name": "Six Thinking Hats",
+          "description": "Explore topics from six distinct perspectives: facts, emotions, caution, benefits, creativity, process",
+          "energy": "medium",
+          "duration": "30-45 min",
+          "bestFor": ["comprehensive analysis", "balanced thinking", "team alignment"],
+          "prompts": [
+            "White Hat: What are the facts?",
+            "Red Hat: What are your gut feelings?",
+            "Black Hat: What could go wrong?",
+            "Yellow Hat: What are the benefits?",
+            "Green Hat: What creative alternatives exist?",
+            "Blue Hat: What's our process?"
+          ]
+        },
+        {
+          "id": "mind-mapping",
+          "name": "Mind Mapping",
+          "description": "Visual organization of ideas radiating from a central concept",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["visual thinking", "idea organization", "connection discovery"],
+          "prompts": [
+            "What's the central concept?",
+            "What main branches emerge from this?",
+            "What sub-branches connect to each main idea?",
+            "What unexpected connections do you see?"
+          ]
+        },
+        {
+          "id": "resource-constraints",
+          "name": "Resource Constraints",
+          "description": "Apply extreme constraints to force creative solutions",
+          "energy": "high",
+          "duration": "15-25 min",
+          "bestFor": ["innovation under pressure", "efficiency", "creative problem solving"],
+          "prompts": [
+            "What if you had only 10% of the budget?",
+            "How would you do this in one day?",
+            "What if you could only use one tool?"
+          ]
+        },
+        {
+          "id": "decision-tree-mapping",
+          "name": "Decision Tree Mapping",
+          "description": "Map out decision paths and their consequences systematically",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["decision making", "consequence exploration", "strategic planning"],
+          "prompts": [
+            "What's the first decision point?",
+            "What branches from each choice?",
+            "Where does each path ultimately lead?"
+          ]
+        },
+        {
+          "id": "solution-matrix",
+          "name": "Solution Matrix",
+          "description": "Evaluate solutions against criteria in a structured matrix",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["solution evaluation", "criteria-based selection", "objective comparison"],
+          "prompts": [
+            "What criteria matter most?",
+            "How does each solution score on each criterion?",
+            "What patterns emerge from the matrix?"
+          ]
+        },
+        {
+          "id": "trait-transfer",
+          "name": "Trait Transfer",
+          "description": "Borrow successful traits from exemplars and apply them to your challenge",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["best practice adoption", "success modeling", "systematic improvement"],
+          "prompts": [
+            "Who does this exceptionally well?",
+            "What specific traits make them successful?",
+            "How can we adapt these traits to our context?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "introspective_delight",
+      "name": "Introspective Delight",
+      "icon": "🧘",
+      "description": "Inner exploration, values clarification, personal insight",
+      "techniqueCount": 6,
+      "techniques": [
+        {
+          "id": "inner-child-conference",
+          "name": "Inner Child Conference",
+          "description": "Access childlike curiosity and wonder to break adult constraints",
+          "energy": "low",
+          "duration": "15-25 min",
+          "bestFor": ["pure curiosity", "playful thinking", "removing self-censorship"],
+          "prompts": [
+            "What would 8-year-old you think of this?",
+            "If you could ask 'why' without limits, what would you ask?",
+            "What would be the most fun solution?"
+          ]
+        },
+        {
+          "id": "shadow-work-mining",
+          "name": "Shadow Work Mining",
+          "description": "Explore rejected ideas and hidden assumptions from your subconscious",
+          "energy": "low",
+          "duration": "20-30 min",
+          "bestFor": ["hidden insights", "unconscious patterns", "complete exploration"],
+          "prompts": [
+            "What ideas did you immediately dismiss?",
+            "What are you avoiding thinking about?",
+            "What would you suggest if no one was watching?"
+          ]
+        },
+        {
+          "id": "values-archaeology",
+          "name": "Values Archaeology",
+          "description": "Dig deep to uncover core values driving decisions and preferences",
+          "energy": "low",
+          "duration": "25-35 min",
+          "bestFor": ["values clarification", "motivation discovery", "authentic direction"],
+          "prompts": [
+            "Why does this matter to you?",
+            "What value does this serve?",
+            "What would you regret not doing?"
+          ]
+        },
+        {
+          "id": "future-self-interview",
+          "name": "Future Self Interview",
+          "description": "Consult with your future self for long-term perspective",
+          "energy": "medium",
+          "duration": "20-25 min",
+          "bestFor": ["long-term thinking", "wisdom access", "regret prevention"],
+          "prompts": [
+            "What would 10-years-from-now you advise?",
+            "Looking back, what would you wish you'd done?",
+            "What will matter in the long run?"
+          ]
+        },
+        {
+          "id": "body-wisdom-dialogue",
+          "name": "Body Wisdom Dialogue",
+          "description": "Access intuitive knowledge through physical and emotional awareness",
+          "energy": "low",
+          "duration": "15-20 min",
+          "bestFor": ["intuition access", "gut feeling exploration", "holistic decision making"],
+          "prompts": [
+            "What does your gut tell you?",
+            "Where do you feel resistance in your body?",
+            "What does excitement feel like with this option?"
+          ]
+        },
+        {
+          "id": "permission-giving",
+          "name": "Permission Giving",
+          "description": "Explicitly grant permission to think freely and remove self-imposed limits",
+          "energy": "medium",
+          "duration": "10-15 min",
+          "bestFor": ["removing blocks", "creative freedom", "psychological safety"],
+          "prompts": [
+            "You have permission to think the unthinkable",
+            "What would you do if failure was impossible?",
+            "What if all criticism was suspended?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theatrical",
+      "name": "Theatrical",
+      "icon": "🎭",
+      "description": "Role-playing, perspective shifting, dramatic exploration",
+      "techniqueCount": 6,
+      "techniques": [
+        {
+          "id": "time-travel-talk-show",
+          "name": "Time Travel Talk Show",
+          "description": "Interview people from different eras about your challenge",
+          "energy": "high",
+          "duration": "20-30 min",
+          "bestFor": ["historical perspective", "creative engagement", "unconventional wisdom"],
+          "prompts": [
+            "What would Leonardo da Vinci say about this?",
+            "How would a future historian view our decision?",
+            "Interview someone from 1920 about this challenge"
+          ]
+        },
+        {
+          "id": "alien-anthropologist",
+          "name": "Alien Anthropologist",
+          "description": "View the situation as a complete outsider with no preconceptions",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["fresh eyes", "assumption surfacing", "outsider perspective"],
+          "prompts": [
+            "If you just arrived from another planet, what would confuse you?",
+            "What would seem completely illogical to an outsider?",
+            "Describe this situation as if seeing it for the first time"
+          ]
+        },
+        {
+          "id": "dream-fusion-laboratory",
+          "name": "Dream Fusion Laboratory",
+          "description": "Combine dream logic with practical goals for unexpected solutions",
+          "energy": "high",
+          "duration": "20-30 min",
+          "bestFor": ["creative leaps", "unconscious wisdom", "breakthrough thinking"],
+          "prompts": [
+            "If this were a dream, what would happen next?",
+            "What impossible thing would solve this instantly?",
+            "Describe your ideal outcome in dream-like terms"
+          ]
+        },
+        {
+          "id": "emotion-orchestra",
+          "name": "Emotion Orchestra",
+          "description": "Explore the problem through different emotional lenses",
+          "energy": "medium",
+          "duration": "20-25 min",
+          "bestFor": ["emotional intelligence", "comprehensive perspective", "empathy building"],
+          "prompts": [
+            "How does this look through the lens of joy?",
+            "What does fear reveal about this situation?",
+            "What would anger want to change here?"
+          ]
+        },
+        {
+          "id": "parallel-universe-cafe",
+          "name": "Parallel Universe Cafe",
+          "description": "Explore alternate realities where different choices were made",
+          "energy": "high",
+          "duration": "20-30 min",
+          "bestFor": ["alternative exploration", "decision confidence", "creative scenarios"],
+          "prompts": [
+            "In a universe where we chose differently, what happened?",
+            "What does success look like in an alternate reality?",
+            "Visit three parallel universes - what's different in each?"
+          ]
+        },
+        {
+          "id": "persona-journey",
+          "name": "Persona Journey",
+          "description": "Walk through the experience as different archetypal characters",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["user empathy", "comprehensive testing", "diverse perspectives"],
+          "prompts": [
+            "Experience this as The Skeptic",
+            "Now try it as The Enthusiast",
+            "What does The Expert notice that others miss?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wild",
+      "name": "Wild",
+      "icon": "🌪️",
+      "description": "Extreme thinking, boundary breaking, chaos embracing",
+      "techniqueCount": 8,
+      "techniques": [
+        {
+          "id": "chaos-engineering",
+          "name": "Chaos Engineering",
+          "description": "Deliberately introduce chaos to discover hidden strengths and weaknesses",
+          "energy": "high",
+          "duration": "20-30 min",
+          "bestFor": ["stress testing", "resilience building", "hidden discovery"],
+          "prompts": [
+            "What if everything went wrong at once?",
+            "Introduce chaos - what survives?",
+            "What breaks first and what does that tell us?"
+          ]
+        },
+        {
+          "id": "guerrilla-gardening-ideas",
+          "name": "Guerrilla Gardening Ideas",
+          "description": "Plant ideas in unexpected places and see what grows",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["unexpected growth", "organic development", "surprise innovation"],
+          "prompts": [
+            "Where could this idea take root unexpectedly?",
+            "Plant this concept somewhere it doesn't belong",
+            "What grows when we scatter ideas wildly?"
+          ]
+        },
+        {
+          "id": "pirate-code-brainstorm",
+          "name": "Pirate Code Brainstorm",
+          "description": "Ignore all rules and conventions - what would pirates do?",
+          "energy": "high",
+          "duration": "15-20 min",
+          "bestFor": ["rule breaking", "unconventional thinking", "bold moves"],
+          "prompts": [
+            "What rules would you break if you could?",
+            "What's the pirate approach to this problem?",
+            "If guidelines were suggestions, what would you do?"
+          ]
+        },
+        {
+          "id": "zombie-apocalypse-planning",
+          "name": "Zombie Apocalypse Planning",
+          "description": "Plan for extreme scenarios to reveal essential priorities",
+          "energy": "high",
+          "duration": "20-25 min",
+          "bestFor": ["priority clarification", "essential identification", "extreme preparation"],
+          "prompts": [
+            "If everything collapsed, what would still matter?",
+            "What's the minimum viable version?",
+            "What would you protect at all costs?"
+          ]
+        },
+        {
+          "id": "drunk-history-retelling",
+          "name": "Drunk History Retelling",
+          "description": "Explain the situation without filters or formality",
+          "energy": "high",
+          "duration": "10-15 min",
+          "bestFor": ["authentic expression", "removing pretense", "core truth"],
+          "prompts": [
+            "Explain this like you're telling a friend at a bar",
+            "What's the unfiltered version of this story?",
+            "Drop all corporate speak - what's really going on?"
+          ]
+        },
+        {
+          "id": "anti-solution",
+          "name": "Anti-Solution",
+          "description": "Design the worst possible solution, then learn from it",
+          "energy": "medium",
+          "duration": "15-20 min",
+          "bestFor": ["learning from extremes", "identifying what to avoid", "creative contrast"],
+          "prompts": [
+            "Design the worst possible version of this",
+            "What would guarantee failure?",
+            "What does the anti-solution teach us about success?"
+          ]
+        },
+        {
+          "id": "quantum-superposition",
+          "name": "Quantum Superposition",
+          "description": "Hold contradictory ideas simultaneously until observation collapses them",
+          "energy": "high",
+          "duration": "20-25 min",
+          "bestFor": ["paradox tolerance", "complex thinking", "both/and solutions"],
+          "prompts": [
+            "What if both opposing options were true?",
+            "Hold these contradictions together - what emerges?",
+            "Don't choose yet - explore the superposition"
+          ]
+        },
+        {
+          "id": "elemental-forces",
+          "name": "Elemental Forces",
+          "description": "Apply metaphors of fire, water, earth, and air to the challenge",
+          "energy": "medium",
+          "duration": "20-25 min",
+          "bestFor": ["natural metaphors", "elemental thinking", "balanced approach"],
+          "prompts": [
+            "What does Fire want to transform here?",
+            "Where does Water want to flow?",
+            "What does Earth want to ground?",
+            "What does Air want to lift up?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biomimetic",
+      "name": "Biomimetic",
+      "icon": "🌿",
+      "description": "Nature-inspired solutions, biological wisdom, ecosystem thinking",
+      "techniqueCount": 3,
+      "techniques": [
+        {
+          "id": "natures-solutions",
+          "name": "Nature's Solutions",
+          "description": "Look to nature for time-tested solutions to complex problems",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["sustainable solutions", "proven patterns", "elegant design"],
+          "prompts": [
+            "How has nature solved this problem?",
+            "What biological system faces similar challenges?",
+            "What would 3.8 billion years of R&D suggest?"
+          ]
+        },
+        {
+          "id": "ecosystem-thinking",
+          "name": "Ecosystem Thinking",
+          "description": "View the problem as part of an interconnected ecosystem",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["systems thinking", "relationship mapping", "holistic solutions"],
+          "prompts": [
+            "What are all the organisms in this ecosystem?",
+            "What symbiotic relationships exist or could exist?",
+            "What happens to the whole system if we change this part?"
+          ]
+        },
+        {
+          "id": "evolutionary-pressure",
+          "name": "Evolutionary Pressure",
+          "description": "Apply selection pressure to evolve ideas toward fitness",
+          "energy": "high",
+          "duration": "20-30 min",
+          "bestFor": ["idea refinement", "survival of fittest", "iterative improvement"],
+          "prompts": [
+            "What selection pressures should we apply?",
+            "Which ideas survive under these conditions?",
+            "How would this idea need to adapt to thrive?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum",
+      "icon": "⚛️",
+      "description": "Quantum-inspired thinking, uncertainty embrace, observer effects",
+      "techniqueCount": 3,
+      "techniques": [
+        {
+          "id": "observer-effect",
+          "name": "Observer Effect",
+          "description": "Explore how observation and measurement change what we're studying",
+          "energy": "medium",
+          "duration": "15-25 min",
+          "bestFor": ["meta-awareness", "bias recognition", "research design"],
+          "prompts": [
+            "How does measuring this change it?",
+            "What happens when we stop observing?",
+            "How does our perspective affect what we see?"
+          ]
+        },
+        {
+          "id": "entanglement-thinking",
+          "name": "Entanglement Thinking",
+          "description": "Discover hidden connections between seemingly unrelated elements",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["connection discovery", "systems awareness", "hidden links"],
+          "prompts": [
+            "What distant elements are secretly connected?",
+            "If we change this, what else changes instantly?",
+            "What's entangled that we haven't noticed?"
+          ]
+        },
+        {
+          "id": "superposition-collapse",
+          "name": "Superposition Collapse",
+          "description": "Use constraints to collapse possibilities into concrete decisions",
+          "energy": "high",
+          "duration": "15-25 min",
+          "bestFor": ["decision making", "commitment", "moving forward"],
+          "prompts": [
+            "What constraint would force a decision?",
+            "If we had to choose right now, what would we pick?",
+            "What observation collapses our options into action?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cultural",
+      "name": "Cultural",
+      "icon": "🌍",
+      "description": "Cross-cultural wisdom, traditional knowledge, fusion thinking",
+      "techniqueCount": 4,
+      "techniques": [
+        {
+          "id": "indigenous-wisdom",
+          "name": "Indigenous Wisdom",
+          "description": "Apply traditional knowledge and long-term thinking to modern challenges",
+          "energy": "low",
+          "duration": "20-30 min",
+          "bestFor": ["long-term thinking", "traditional knowledge", "sustainable approaches"],
+          "prompts": [
+            "What would seven generations thinking suggest?",
+            "How have traditional cultures approached this?",
+            "What wisdom have we forgotten?"
+          ]
+        },
+        {
+          "id": "fusion-cuisine",
+          "name": "Fusion Cuisine",
+          "description": "Blend approaches from different cultures for unique combinations",
+          "energy": "medium",
+          "duration": "20-25 min",
+          "bestFor": ["cultural innovation", "unique combinations", "diverse integration"],
+          "prompts": [
+            "What would happen if we blended Eastern and Western approaches?",
+            "Create a fusion of two cultural perspectives",
+            "What unexpected cultural combination might work?"
+          ]
+        },
+        {
+          "id": "ritual-innovation",
+          "name": "Ritual Innovation",
+          "description": "Design meaningful rituals and experiences that mark important moments",
+          "energy": "medium",
+          "duration": "20-30 min",
+          "bestFor": ["experience design", "meaning creation", "community building"],
+          "prompts": [
+            "What ritual could mark this transition?",
+            "How do we make this moment meaningful?",
+            "What ceremony would honor this change?"
+          ]
+        },
+        {
+          "id": "mythic-frameworks",
+          "name": "Mythic Frameworks",
+          "description": "Apply archetypal stories and mythic patterns to understand situations",
+          "energy": "medium",
+          "duration": "25-35 min",
+          "bestFor": ["narrative thinking", "archetypal patterns", "meaning making"],
+          "prompts": [
+            "What myth or story does this situation resemble?",
+            "Who is the hero, the mentor, the shadow?",
+            "What archetypal journey are we on?"
+          ]
+        }
+      ]
+    }
+  ],
+  "goalMapping": {
+    "innovation": ["creative", "wild", "theatrical"],
+    "problem-solving": ["deep", "structured"],
+    "team-building": ["collaborative"],
+    "personal-insight": ["introspective_delight"],
+    "strategic-planning": ["structured", "deep"],
+    "breaking-patterns": ["wild", "theatrical", "creative"],
+    "systematic-exploration": ["structured", "deep"],
+    "sustainable-solutions": ["biomimetic", "cultural"]
+  },
+  "energyLevels": {
+    "high": "Requires active engagement, enthusiasm, and creative energy",
+    "medium": "Balanced exploration with focused attention",
+    "low": "Reflective, introspective, suitable for quiet exploration"
+  }
+}
