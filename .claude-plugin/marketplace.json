@@ -9,6 +9,11 @@
       "name": "party-mode",
       "source": "./plugins/party-mode",
       "description": "Multi-agent conversation orchestration - enables dynamic group discussions with AI agents, each with unique personality and expertise"
+    },
+    {
+      "name": "brainstorming",
+      "source": "./plugins/brainstorming",
+      "description": "Interactive brainstorming facilitation with 61 creative techniques across 10 categories - AI-powered creative coaching for innovative thinking"
     }
   ]
 }
